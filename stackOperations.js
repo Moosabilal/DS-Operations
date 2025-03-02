@@ -7,7 +7,7 @@ class Stack{
     }
     pop(){
         if(this.isEmpty()) console.log('stack is empty')
-        else this.item.pop()
+        else return this.item.pop()
     }
     display(){
         if(this.isEmpty()) console.log('stack is empty')
